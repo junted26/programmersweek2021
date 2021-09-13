@@ -1,0 +1,23 @@
+.default {
+    width: 144px;
+    height: 40px;
+    background: transparent
+      linear-gradient(100deg, #61893c 0%, #40c267 46%, #87c240 100%) 0% 0%
+      no-repeat padding-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    opacity: 1;
+  }
+  
+  .default:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .buttonContainer span{
+    text-transform: none;
+  }
+  

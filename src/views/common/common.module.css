@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .focusText {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .focusTextU {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .title {
+    position: relative;
+    top: -195px;
+    width: auto;
+    height: 48px;
+    text-align: left;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: xx-large;
+    letter-spacing: 0;
+    color: #484b50;
+    opacity: 1;
+  }
+  
+  .author {
+    width: auto;
+    height: 17px;
+    text-align: left;
+    font-family: 'Lato';
+  
+    font-size: 34px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  
+  .regularTextContainer {
+    justify-content: center;
+    width: 60%;
+    line-height: 2;
+    margin-top: 15px;
+  }
+  
+  .loader {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 2000;
+    overflow-y: scroll;
+    background: rgba(235, 241, 233, 0.5);
+    display: flex;
+    justify-content: center;
+  }
+  

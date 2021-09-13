@@ -1,0 +1,131 @@
+.bannerText {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+    position: absolute;
+    top: 15%;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+  }
+  
+  .Banner{
+    width: 100%;
+    height: 220px;
+    background-position: right bottom;
+    background: transparent url('../assets/banner.png') 0% 0% no-repeat
+      padding-box;
+    background-size: cover;
+    -webkit-background-size: cover;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .dropZone {
+    text-align: center;
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #00000029;
+    border: 2px dashed #dcdcdc;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  
+  .dropZone:focus {
+    outline-style: none;
+  }
+  
+  .submitButton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submitButton iframe{
+    margin-left: 0%;
+  }
+  
+  @media screen and (max-width: 479px){
+  .submitButton iframe{
+    margin-left: -12%;
+  }
+  }
+  
+  .message {
+    height: 80px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .focusText {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    justify-content: left;
+  }
+  
+  .focusText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .title {
+    position: relative;
+    top: -195px;
+    width: auto;
+    height: 48px;
+    text-align: left;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: xx-large;
+    letter-spacing: 0;
+    color: #484b50;
+    opacity: 1;
+  }
+  
+  .author {
+    width: auto;
+    height: 17px;
+    text-align: left;
+    font-family: 'Lato';
+  
+    font-size: 34px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .regularTextContainer {
+    justify-content: center;
+    width: 100%;
+    line-height: 2;
+    margin-top: 15px;
+  }
+  
